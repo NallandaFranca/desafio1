@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tour pelo mundo - cadastro</title>
+</head>
+<body>
+   
+    <nav>
+
+        <a class="logo" href="formtpw.html"><h1>tour pelo mundo<img src="imagensptw/mundo.png" width="80px"></h1></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="logintpw.html">Inicio</a></li>
+          <li><a href="tourpelomundo.html">viagens</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+ <h2>Cadastro</h2>
+      <script src="mobile-navbar.js"></script>
+
+     <section>
+        <form action="" enctype="multipart/form-data">
+            
+                <legend class="legenda">Dados pessoais</legend>
+                <div >
+                <label>Nome:</label>
+                <input type="text" name="name" placeholder="Digite seu nome..." riquired/>
+            </div>
+            <div>
+                <label>CPF:</label>
+                <input type="text" name="CPF-" placeholder="ex: 000.000.000-00" maxlength="14" pattern="([0-9]{3}[.]?[0-9]{3}[.]?[0-9]{3}-[0-9]{2})"riquired/>
+            </div>
+            <div>
+                <label>Data de nascimento:</label>
+                <input type="date" name="data"  riquired/>
+            </div>
+            <div>
+                <label>E-mail:</label>
+                <input type="text" name="email" placeholder="ex: maria@gmail.com" riquired/>
+            </div>
+            <div>
+                <label>Celular:</label>
+                <input type="text" name="number" placeholder="(01)9 23456789"/>
+            </div><br><br>
+
+        </form>
+     </section>
+     <section>
+        <form action="" enctype="multipart/form-data">
+        <legend class="legenda2">Endereço</legend>
+          <div class="legenda-2">
+            <label>CEP:</label>
+            <input type="text" name="cep" placeholder="12340-000"/>
+          </div>
+          <div class="legenda-2">
+            <label>UF:</label>
+            <input type="text" name="uf">
+        </div>
+        <div class="legenda-2">
+            <label>Cidade:</label>
+            <input type="text" name="cidade">
+        </div>
+        <div class="legenda-2">
+            <label>Bairro:</label>
+            <input type="text" name="bairro">
+        </div>
+        <div class="legenda-2">
+            <label>Rua:</label>
+            <input type="text" name="rua">
+        </div>
+        <div class="legenda-2">
+            <label>Número:</label>
+            <input type="text" name="numero">
+        </div>
+        
+       
+            <button type="submit" value="bp"><a href="mensagem.html">Enviar</a></button>
+        
+        
+        </form>
+        
+    </section>
+      
+    
+    </body>
+</html>
